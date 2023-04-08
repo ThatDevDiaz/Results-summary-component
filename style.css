@@ -18,9 +18,9 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  max-width: 470px;
+  width: 600px;
   justify-content: center;
-  height: 375px;
+  height: 450px;
 
   box-shadow: 2px 2px 4px 1px #85858562;
   border-radius: 20px;
@@ -55,14 +55,14 @@ body {
 .your-result {
   color: rgba(226, 224, 224, 0.868);
 
-  font-size: 16px;
+  font-size: 22px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 h1 {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -77,6 +77,9 @@ h2 {
   text-align: left;
   padding-left: 20px;
   padding-top: 16px;
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 10px;
 }
 
 .score {
@@ -98,7 +101,6 @@ h2 {
   padding-bottom: 50px;
   margin: auto;
   margin-top: 0px;
-  font-size: 14px;
 }
 
 .circle {
@@ -117,7 +119,7 @@ h2 {
 }
 
 .of {
-  font-size: 10px;
+  font-size: 15px;
   padding-top: 0px;
   margin-top: 0px;
   color: rgba(178, 176, 176, 0.734);
@@ -190,13 +192,14 @@ h2 {
 .your-score {
   /* color: rgba(226, 224, 224, 0.868); */
   font-size: 15px;
-  transform: translate(-15px, -15px);
+  transform: translate(-15px, -16px);
+  font-weight: 700;
 }
 
 .of-100 {
   color: rgba(159, 159, 159, 0.868);
-  font-size: 12px;
-  transform: translate(-8px, 1px);
+  font-size: 14px;
+  transform: translate(-10px, 0px);
 }
 
 .score-text-right {
@@ -210,6 +213,8 @@ h2 {
   padding: 0px;
   margin: 0px;
   margin-right: 50px;
+  transform: translate(-40px, -2px);
+  font-weight: 500;
 }
 
 .reaction .score-text-right {
@@ -232,8 +237,9 @@ h2 {
 img {
   padding-left: 0px;
   margin-left: 0px;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
+  transform: translate(-20px, -3px);
 }
 
 button {
@@ -244,6 +250,6 @@ button {
   border-color: white;
   box-shadow: none;
   font-weight: 300;
-  margin-top: 10px;
-  height: 40px;
+  margin-top: 25px;
+  height: 50px;
 }
