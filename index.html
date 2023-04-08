@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1 class="your-result">Your Result</h1>
+        <div class="circle">
+          <div class="score">
+            76
+            <p class="of">of 100</p>
+          </div>
+        </div>
+        <h2>Great</h2>
+        <p class="score-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+
+      <!-- Trying to locate the syntax error here. Chatgpt says there's nothing wrong or no inconsistencies but prettier will not format. When commenting out this DIV section, prettier formats. Using this comment to seperate the section that is giving issues in prettier -->
+      <div class="right">
+          <h1 class="summary">Summary</h1>
+             <div class="score-breakdown">
+                <div class="reaction">
+                   <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon" />
+                   <div class="score-text-right">Reaction</div>
+                   <p class="your-score">80 
+              
+                     <div class="of-100">/100</div>           
+                   </p>
+               </div>
+          <div class="memory">
+            <img src="./assets/images/icon-memory.svg" alt="Memory" /> <div class="score-text-right">Memory</div>
+            
+            
+            <p class="your-score">92 <div class="of-100">/100</div></p>
+
+
+          </div>
+          <div class="verbal">
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal" /> <div class="score-text-right">Verbal </div>
+            
+            
+            <p class="your-score">61 <div class="of-100">/100</div></p>
+
+
+          </div>
+          <div class="visual">
+            <img src="./assets/images/icon-visual.svg" alt="Visual" /> 
+            <div class="score-text-right">Visual</div>
+            
+            
+            <p class="your-score">61 
+              <div class="of-100">/100</div>
+            </p>
+            
+          </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+<!-- Trying to locate the syntax error here. Chatgpt says there's nothing wrong or no inconsistencies but prettier will not format. When commenting out this DIV section, prettier formats. Using this comment to seperate the section that is giving issues in prettier -->
+
+
+
+    
+  </body>
+</html>

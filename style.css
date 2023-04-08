@@ -1,0 +1,249 @@
+@font-face {
+  font-family: Hanken;
+  src: url(./HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: Hanken;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 470px;
+  justify-content: center;
+  height: 65%;
+
+  box-shadow: 2px 2px 4px 1px #85858562;
+  border-radius: 20px;
+}
+
+/* .container-left {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+
+.container-right {
+  display: flex;
+  height: 100%;
+  width: 100%;
+} */
+
+.left {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 20px;
+  width: 57%;
+  height: 100%;
+  align-items: center;
+}
+
+.your-result {
+  color: rgba(226, 224, 224, 0.868);
+
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 0px;
+}
+
+.summary {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 16px;
+}
+
+.score {
+  text-align: center;
+  justify-content: center;
+
+  color: white;
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+
+.score-text {
+  color: rgba(226, 224, 224, 0.868);
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.of {
+  font-size: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: rgba(178, 176, 176, 0.734);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 53%;
+  gap: 10px;
+}
+
+.score-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 67%, 0.193);
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-size: 15px;
+  border-radius: 12px;
+  padding-top: 15px;
+  height: 30px;
+  width: 100%;
+}
+
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.193);
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-size: 15px;
+  border-radius: 12px;
+  padding-top: 15px;
+  height: 30px;
+  width: 100%;
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 37%, 0.193);
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-size: 15px;
+  border-radius: 12px;
+  padding-top: 15px;
+  height: 30px;
+  width: 100%;
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.193);
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-size: 15px;
+  border-radius: 12px;
+  padding-top: 15px;
+  height: 30px;
+  width: 100%;
+}
+
+.your-score {
+  /* color: rgba(226, 224, 224, 0.868); */
+  font-size: 15px;
+  transform: translate(-15px, -15px);
+}
+
+.of-100 {
+  color: rgba(159, 159, 159, 0.868);
+  font-size: 12px;
+  transform: translate(-8px, 1px);
+}
+
+.score-text-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 50px;
+}
+
+.reaction .score-text-right {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory .score-text-right {
+  color: hsl(39, 100%, 56%);
+}
+.verbal .score-text-right {
+  color: hsl(166, 100%, 37%);
+  margin-right: 62px;
+}
+
+.visual .score-text-right {
+  color: hsla(234, 85%, 45%);
+  margin-right: 65px;
+}
+
+img {
+  padding-left: 0px;
+  margin-left: 0px;
+  width: 50%;
+  height: 50%;
+}
+
+button {
+  color: white;
+  font-size: 15px;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 30px;
+  border-color: white;
+  box-shadow: none;
+  font-weight: 300;
+  margin-top: 30px;
+  height: 40px;
+}
