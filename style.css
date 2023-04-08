@@ -20,7 +20,7 @@ body {
   flex-direction: row;
   max-width: 470px;
   justify-content: center;
-  height: 55%;
+  height: 375px;
 
   box-shadow: 2px 2px 4px 1px #85858562;
   border-radius: 20px;
